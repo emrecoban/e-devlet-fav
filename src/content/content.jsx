@@ -12,10 +12,10 @@ async function fetchFavs(){
     console.error("Fetching favs has an error: ", error.message)
   }
 }
-
+const searchBlock = document.getElementById('homepageSearchBlock')
 const emFirst = document.getElementsByTagName('em')[0]
 document.getElementsByTagName('em')[1].innerHTML = '';
-if(emFirst){
+if(searchBlock){
   await fetchFavs().then((favList)=>{
     const favsEl = []
     favList.map(item=>{
