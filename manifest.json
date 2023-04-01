@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "E-Devlet Favoriler",
+    "version": "1.0.0",
+    "action": { "default_popup": "index.html" },
+    "content_scripts": [
+        {
+            "js": ["src/main.jsx"],
+            "matches": ["https://*.turkiye.gov.tr/*"]
+        }
+    ]
+}

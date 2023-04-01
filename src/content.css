@@ -1,0 +1,29 @@
+#favBox{
+    width: 69%;
+    margin:0 auto;
+    padding-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+#favBox > .favItem{
+    list-style-type: none;
+    border:1px solid #7EC4E4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+#favBox > .favItem a{
+    display: block;
+    padding: 5px 10px;
+    background-color:antiquewhite;
+    color: black;
+    border-radius: 6px;
+}
+
+#favBox > .favItem a:hover{
+    background-color:#7EC4E4;
+    color: black;
+    border-radius: 6px;
+}
