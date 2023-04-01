@@ -13,27 +13,15 @@ async function fetchFavs(){
   }
 }
 
-const searchBlock = document.getElementById('homepageSearchBlock')
-if(searchBlock){
-  const $ = cheerio.load(searchBlock.innerHTML, {}, false);
-
+const emFirst = document.getElementsByTagName('em')[0]
+document.getElementsByTagName('em')[1].innerHTML = '';
+if(emFirst){
   await fetchFavs().then((favList)=>{
     const favsEl = []
     favList.map(item=>{
       favsEl.push(`<li class="favItem"><a href='${favList[item].children[2].attribs.href}'>${favList[item].children[2].children[2].children[1].children[0].data}</a></li>`)
     })
 
-
-
-    $(`<ul id="favBox">${favsEl.splice(0,9).join('')}</ul>`).insertAfter('form')
-    console.log("faaaav ", favsEl)
+    emFirst.innerHTML = `<ul id="favBox">${favsEl.splice(0,9).join('')}</ul>`
   })
-  
-  $('em.first').remove()
-  $('em.second').remove()
-
-  //console.log("gelen veri:", $.html())
-  //console.log("fonksiyondan: ", )
-
-  searchBlock.innerHTML = $.html()
 }

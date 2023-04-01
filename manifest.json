@@ -1,14 +1,18 @@
 {
     "manifest_version": 3,
     "name": "E-Devlet Favoriler",
-    "version": "1.0.0",
+    "description": "turkiye.gov.tr'de kullanıcıların favori işlemlerini arama kutusunun altında listelemektedir.",
+    "version": "1.0",
     "icons": {
         "16": "src/img/icon128.png",
         "32": "src/img/icon128.png",
         "48": "src/img/icon128.png",
         "128": "src/img/icon128.png"
     },
-    "action": { "default_popup": "index.html" },
+    "action": { 
+        "default_popup": "index.html",
+        "default_icon": "src/img/icon128.png" 
+    },
     "content_scripts": [
         {
             "js": ["src/content/content.jsx"],

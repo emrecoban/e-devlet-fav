@@ -1,7 +1,21 @@
+em.first{
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 3em auto !important;
+    padding: 0 160px !important;
+    overflow: visible !important;
+    opacity: 1 !important;
+}
+
+#homepageSearchBlock.focused>em.first{
+    margin-top: 1em !important;
+    
+}
+
 #favBox{
-    width: 69%;
+    width: 100%;
     margin:0 auto;
-    padding-top:10px;
     display: flex;
     flex-wrap: wrap;
     gap: 3px;
