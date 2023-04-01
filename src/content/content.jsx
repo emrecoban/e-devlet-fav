@@ -16,12 +16,12 @@ const searchBlock = document.getElementById('homepageSearchBlock')
 const emFirst = document.getElementsByTagName('em')[0]
 document.getElementsByTagName('em')[1].innerHTML = '';
 if(searchBlock){
-  await fetchFavs().then((favList)=>{
+  (async ()=>{
+    const favList = await fetchFavs()
     const favsEl = []
-    favList.map(item=>{
-      favsEl.push(`<li class="favItem"><a href='${favList[item].children[2].attribs.href}'>${favList[item].children[2].children[2].children[1].children[0].data}</a></li>`)
+    favList.get().map(item=>{
+      favsEl.push(`<li class="favItem"><a href='${item.children[2].attribs.href}'>${item.children[2].children[2].children[1].children[0].data}</a></li>`)
     })
-
     emFirst.innerHTML = `<ul id="favBox">${favsEl.splice(0,9).join('')}</ul>`
-  })
+  })()
 }

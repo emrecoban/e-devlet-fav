@@ -12,12 +12,10 @@ export default function App(){
             <section>
                 <h3>Hakkında</h3>
                 <p>Bu Chrome eklentisi, turkiye.gov.tr'de kullanıcıların favori işlemlerini arama kutusunun altında listelemektedir.</p>
-                <p>
-                    <ul>
-                        <li>Ücretsiz</li>
-                        <li>Açık Kaynak</li>
-                    </ul>
-                </p>
+                <ul>
+                    <li>Ücretsiz</li>
+                    <li>Açık Kaynak</li>
+                </ul>
                 <h3>Geri bildirim</h3>
                 <p>Hata raporları, özellik talepleri ve pull request'ler memnuniyetle karşılanmaktadır. Bunun için <a href="https://github.com/emrecoban/e-devlet-fav">GitHub</a> üzerinden geri bildirimde bulunabilirsiniz [CTRL + Click].</p>
                 <h3>Geliştirici</h3>
