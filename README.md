@@ -1,4 +1,5 @@
-# e-Devlet Favoriler
+<h1 align="center"><img src="src/img/icon128.png" height="80" align="center" /><br />e-Devlet Favoriler</h1>
+
 Bu Chrome eklentisi, turkiye.gov.tr'de kullanıcıların favori işlemlerini arama kutusunun altında listelemektedir.
 
 ## Problem Tanımı
