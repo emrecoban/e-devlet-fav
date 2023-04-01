@@ -1,6 +1,6 @@
 <h1 align="center"><img src="src/img/icon128.png" height="80" align="center" /><br />e-Devlet Favoriler</h1>
 
-Bu Chrome eklentisi, turkiye.gov.tr'de kullanıcıların favori işlemlerini arama kutusunun altında listelemektedir.
+Bu Chrome eklentisi, [turkiye.gov.tr](https://turkiye.gov.tr)'de kullanıcıların favori işlemlerini arama kutusunun altında listelemektedir.
 
 ## Problem Tanımı
 e-Devlet Favoriler, [turkiye.gov.tr](https://turkiye.gov.tr) (e-Devlet Kapısı) kullanıcılarının sık kullandıkları işlemleri arama kutusuna yazarak aratmak yerine, favori işlemler listesi altında doğrudan istedikleri hizmet sayfasına erişmelerini sağlayarak zaman kazandırmayı hedeflemektedir. Bu sayede kullanıcılar, aradıkları işlemleri hızlı ve kolay bir şekilde gerçekleştirebilirler. Dolayısıyla, eklentinin çözmeye çalıştığı sorun, turkiye.gov.tr kullanıcılarının zaman tasarrufu yapmalarına yardımcı olmaktır.
@@ -27,7 +27,7 @@ e-Devlet Favoriler, [turkiye.gov.tr](https://turkiye.gov.tr) (e-Devlet Kapısı)
 
 VEYA
 
-1. Releases'den [güncel sürümü indirin](#).
+1. Releases'den [güncel sürümü indirin](https://github.com/emrecoban/e-devlet-fav/releases/tag/v1.0).
 2. Sıkıştırılmış ZIP dosyasını açın.
 3. Chrome/Brave'de eklentiler sayfasına gidin (chrome://extensions veya brave://extensions).
 4. Geliştirici modunu aktif edin.
@@ -39,12 +39,13 @@ Hata raporları, özellik talepleri ve pull request'ler memnuniyetle karşılanm
 ## Destek
 - GitHub'da bana sponsor ol.
 - Bu repo'ya yıldız ver.
-- [Google Chrome Web Store](https://chrome.google.com/webstore/detail/twitter-note/hkgdpppefidcddecmcchdkplfgjkjcdk) üzerinden bir değerlendirme bırak.
+- [Google Chrome Web Store](#) üzerinden bir değerlendirme bırak.
 - Beni Twitter'dan ya da GitHub'dan takip et: [@emreshepherd](https://twitter.com/emreshepherd) - [@emrecoban](https://github.com/emrecoban).
 - Bana kahve ısmarla: https://www.buymeacoffee.com/emrecoban
 
 ## Referanslar
-
+- CRXJS
+- cheerio
 
 ## Sürüm Günlükleri
 - **[v1.0](https://github.com/emrecoban/e-devlet-fav/releases/tag/v1.0):** İlk sürüm yayınlandı!
