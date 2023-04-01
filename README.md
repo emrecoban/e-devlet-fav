@@ -9,9 +9,17 @@ e-Devlet Favoriler, [turkiye.gov.tr](https://turkiye.gov.tr) (e-Devlet Kapısı)
  - Kullanıcıya ait favori işlemleri arama kutusu altında listeler.
 
 ## Ekran Görüntüleri
-<p align="center">
-Yakında.
-</p>
+| Favori hizmetlerinizi arama kutusu altında görüntüleyin. |
+| -------- |
+|![](./github_assets/ss1.png)|
+
+| Favorilerinizi yönetin. |
+| -------- |
+|![](./github_assets/ss2.png)|
+
+| İstediğiniz hizmeti favorilerinize atın. |
+| -------- |
+|![](./github_assets/ss3.png)|
 
 ## Kurulum
 **Google Chrome** ya da **Brave** için:
@@ -19,11 +27,11 @@ Yakında.
 
 VEYA
 
-1. Download this repo as [a ZIP file from GitHub](#).
-2. Unzip the file and you should have a folder named e-devlet-fav-main.
-3. In Chrome/Brave go to the extensions page (chrome://extensions or brave://extensions).
-4. Enable Developer Mode.
-5. Click on the load unpacked button, or drag the e-devlet-fav-main folder anywhere on the page to import it (do not delete the folder afterwards).
+1. Releases'den [güncel sürümü indirin](#).
+2. Sıkıştırılmış ZIP dosyasını açın.
+3. Chrome/Brave'de eklentiler sayfasına gidin (chrome://extensions veya brave://extensions).
+4. Geliştirici modunu aktif edin.
+5. Klasörü sürükleyin ve bırakın veya "load unpacked" düğmesine tıklayın.
 
 ## Katkıda Bulunma
 Hata raporları, özellik talepleri ve pull request'ler memnuniyetle karşılanmaktadır. Bu proje, işbirliği için güvenli ve hoşgörülü bir ortam olmayı amaçlamaktadır ve katkıda bulunanların, [Katılımcı Anlaşması](https://www.contributor-covenant.org/)'nın davranış kurallarına uyması beklenmektedir.
@@ -36,7 +44,7 @@ Hata raporları, özellik talepleri ve pull request'ler memnuniyetle karşılanm
 - Bana kahve ısmarla: https://www.buymeacoffee.com/emrecoban
 
 ## Referanslar
-- [The chrome.storage API](https://developer.chrome.com/docs/extensions/reference/storage/)
+
 
 ## Sürüm Günlükleri
 - **[v1.0](https://github.com/emrecoban/e-devlet-fav/releases/tag/v1.0):** İlk sürüm yayınlandı!
