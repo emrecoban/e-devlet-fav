@@ -5,6 +5,9 @@ Bu Chrome eklentisi, [turkiye.gov.tr](https://turkiye.gov.tr)'de kullanıcılar�
 ## Problem Tanımı
 e-Devlet Favoriler, [turkiye.gov.tr](https://turkiye.gov.tr) (e-Devlet Kapısı) kullanıcılarının sık kullandıkları işlemleri arama kutusuna yazarak aratmak yerine, favori işlemler listesi altında doğrudan istedikleri hizmet sayfasına erişmelerini sağlayarak zaman kazandırmayı hedeflemektedir. Bu sayede kullanıcılar, aradıkları işlemleri hızlı ve kolay bir şekilde gerçekleştirebilirler. Dolayısıyla, eklentinin çözmeye çalıştığı sorun, turkiye.gov.tr kullanıcılarının zaman tasarrufu yapmalarına yardımcı olmaktır.
 
+### 🇬🇧 English
+e-Devlet Favoriler ("e-Government Favorites"), aims to save time for users of the Turkey e-Government Portal ([turkiye.gov.tr](https://turkiye.gov.tr)) by allowing them to directly access their frequently used services from a list of favorite transactions, instead of having to search for them using the search box. This way, users can quickly and easily perform the transactions they need. Therefore, the extension's purpose is to assist turkiye.gov.tr users in making time-saving operations.
+
 ## Özellikler
  - Kullanıcıya ait favori işlemleri arama kutusu altında listeler.
 
