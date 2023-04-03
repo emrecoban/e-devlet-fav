@@ -1,43 +1,46 @@
-em.first{
-    width: 100% !important;
-    height: auto !important;
-    display: block !important;
-    margin: 3em auto !important;
-    padding: 0 160px !important;
-    overflow: visible !important;
-    opacity: 1 !important;
-}
-
 #homepageSearchBlock.focused>em.first{
-    margin-top: 1em !important;
-    
+  padding-top: 1em!important;
+  margin-top: 1em !important;
 }
 
-#favBox{
-    width: 100%;
-    margin:0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3px;
+em.first {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin-top: 1em !important;
+  margin-bottom: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;  
+  padding: 0 160px !important;
+  overflow: visible !important;
+  opacity: 1 !important;
 }
 
-#favBox > .favItem{
-    list-style-type: none;
-    border:1px solid #7EC4E4;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
+#favBox {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
 }
 
-#favBox > .favItem a{
-    display: block;
-    padding: 5px 10px;
-    background-color:antiquewhite;
-    color: black;
-    border-radius: 6px;
+#favBox > .favItem {
+  list-style-type: none;
+  border: 1px solid #7ec4e4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 }
 
-#favBox > .favItem a:hover{
-    background-color:#7EC4E4;
-    color: black;
-    border-radius: 6px;
+#favBox > .favItem a {
+  display: block;
+  padding: 5px 10px;
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 6px;
+}
+
+#favBox > .favItem a:hover {
+  background-color: #7ec4e4;
+  color: black;
+  border-radius: 6px;
 }
