@@ -23,12 +23,12 @@ export default function App() {
         <p>
           Hata raporları, özellik talepleri ve pull request'ler memnuniyetle
           karşılanmaktadır. Bunun için{" "}
-          <a href="https://github.com/emrecoban/e-devlet-fav">GitHub</a>{" "}
-          üzerinden geri bildirimde bulunabilirsiniz [CTRL + Click].
+          <a href="https://github.com/emrecoban/e-devlet-fav" target="_blank">GitHub</a>{" "}
+          üzerinden geri bildirimde bulunabilirsiniz.
         </p>
         <h3>Geliştirici</h3>
         <p>
-          <a href="https://emrecoban.github.io">Emre ÇOBAN</a> tarafından 2023
+          <a href="https://emrecoban.github.io" target="_blank">Emre ÇOBAN</a> tarafından 2023
           yılında ReactJS, CRXJS ve cheerio ile geliştirilmiştir.
         </p>
       </section>
