@@ -1,6 +1,13 @@
 <h1 align="center"><img src="src/img/icon128.png" height="80" align="center" /><br />e-Devlet Favoriler</h1>
 
-<a href="https://chrome.google.com/webstore/detail/e-devlet-favoriler/majkbfhcfdmnoaondmphcobeenmohike" target="_blank"><img src="github_assets/chrome_badge.png" height="80" align="right" /></a>
+![license](https://flat.badgen.net/badge/license/MIT/blue)
+![version](https://flat.badgen.net/chrome-web-store/v/majkbfhcfdmnoaondmphcobeenmohike)
+![rating](https://flat.badgen.net/chrome-web-store/rating/majkbfhcfdmnoaondmphcobeenmohike)
+![react](https://flat.badgen.net/badge/React/18.0.0/blue)
+![vite](https://flat.badgen.net/badge/Vite/2.9.15/purple)
+![crxjs](https://flat.badgen.net/badge/CRXJS/1.0.14/pink)
+
+<a href="https://chrome.google.com/webstore/detail/e-devlet-favoriler/majkbfhcfdmnoaondmphcobeenmohike" target="_blank"><img src="github_assets/chrome_badge.png" align="right" /></a>
 
 Bu Chrome eklentisi, [turkiye.gov.tr](https://turkiye.gov.tr)'de kullanıcıların favori işlemlerini arama kutusunun altında listelemektedir.
 
