@@ -3,7 +3,7 @@ import "./content.css";
 
 async function fetchFavs() {
   try {
-    const favsHTML = await (await fetch("/favori-hizmetlerim")).text();
+    const favsHTML = await (await fetch("https://turkiye.gov.tr/favori-hizmetlerim")).text();
     const $ = cheerio.load(favsHTML);
     $("a.boxList_close").remove();
     $("img").remove();
@@ -22,7 +22,7 @@ if (searchBlock) {
     const favsEl = [];
     favList.get().map((item) => {
       favsEl.push(
-        `<li class="favItem"><a href='${item.children[2].attribs.href}'>${item.children[2].children[2].children[1].children[0].data}</a></li>`
+        `<li class="favItem"><a href='${item?.children[2]?.attribs?.href}'>${item?.children[2]?.children[2]?.children[1]?.children[0]?.data}</a></li>`
       );
     });
     emFirst.innerHTML = `<ul id="favBox">${favsEl.splice(0, 9).join("")}</ul>`;
