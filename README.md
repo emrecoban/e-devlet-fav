@@ -1,5 +1,7 @@
 <h1 align="center"><img src="src/img/icon128.png" height="80" align="center" /><br />e-Devlet Favoriler</h1>
 
+<a href="https://chrome.google.com/webstore/detail/e-devlet-favoriler/majkbfhcfdmnoaondmphcobeenmohike" target="_blank"><img src="github_assets/chrome_badge.png" height="80" align="right" /></a>
+
 Bu Chrome eklentisi, [turkiye.gov.tr](https://turkiye.gov.tr)'de kullanıcıların favori işlemlerini arama kutusunun altında listelemektedir.
 
 ## Problem Tanımı
@@ -26,7 +28,7 @@ e-Devlet Favoriler ("e-Government Favorites"), aims to save time for users of th
 
 ## Kurulum
 **Google Chrome** ya da **Brave** için:
-1. Go to [Google Chrome Web Store](#)
+1. [Google Chrome Web Store](https://chrome.google.com/webstore/detail/e-devlet-favoriler/majkbfhcfdmnoaondmphcobeenmohike)'den tarayıcınıza ekleyin.
 
 VEYA
 
@@ -36,19 +38,44 @@ VEYA
 4. Geliştirici modunu aktif edin.
 5. Klasörü sürükleyin ve bırakın veya "load unpacked" düğmesine tıklayın.
 
+## Dizin Yapısı
+```bash
+├── src
+│   ├── img
+│   ├── content
+│   │   ├── content.css
+│   │   └── content.jsx
+│   ├── popup
+│   │   ├── app.css
+│   │   └── App.jsx
+│   └── main.jsx
+├── index.html
+├── manifest.json
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
 ## Katkıda Bulunma
 Hata raporları, özellik talepleri ve pull request'ler memnuniyetle karşılanmaktadır. Bu proje, işbirliği için güvenli ve hoşgörülü bir ortam olmayı amaçlamaktadır ve katkıda bulunanların, [Katılımcı Anlaşması](https://www.contributor-covenant.org/)'nın davranış kurallarına uyması beklenmektedir.
+
+## Teknolojiler
+- JavaScript
+- React
+- Vite
+- CRXJS
+- cheerio
 
 ## Destek
 - GitHub'da bana sponsor ol.
 - Bu repo'ya yıldız ver.
-- [Google Chrome Web Store](#) üzerinden bir değerlendirme bırak.
+- [Google Chrome Web Store](https://chrome.google.com/webstore/detail/e-devlet-favoriler/majkbfhcfdmnoaondmphcobeenmohike) üzerinden bir değerlendirme bırak.
 - Beni Twitter'dan ya da GitHub'dan takip et: [@emreshepherd](https://twitter.com/emreshepherd) - [@emrecoban](https://github.com/emrecoban).
 - Bana kahve ısmarla: https://www.buymeacoffee.com/emrecoban
 
 ## Referanslar
-- CRXJS
-- cheerio
+- [CRXJS - Get Started with React](https://crxjs.dev/vite-plugin/getting-started/react/create-project)
+- [cheerio](https://cheerio.js.org/docs/intro)
 
 ## Sürüm Günlükleri
 - **[v1.0](https://github.com/emrecoban/e-devlet-fav/releases/tag/v1.0):** İlk sürüm yayınlandı!
