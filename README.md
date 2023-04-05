@@ -85,6 +85,7 @@ Hata raporları, özellik talepleri ve pull request'ler memnuniyetle karşılanm
 - [cheerio](https://cheerio.js.org/docs/intro)
 
 ## Sürüm Günlükleri
+- **[v1.2](https://github.com/emrecoban/e-devlet-fav/releases/tag/v1.2):** Önemli bir hata giderildi.
 - **[v1.0](https://github.com/emrecoban/e-devlet-fav/releases/tag/v1.0):** İlk sürüm yayınlandı!
 
 ## Lisans
