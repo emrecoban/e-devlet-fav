@@ -10,7 +10,7 @@ export default function App() {
         <h1>e-Devlet Favoriler</h1>
       </header>
       <section>
-        <h3>Hakkında</h3>
+        <h3>Hakkında (v1.3)</h3>
         <p>
           Bu Chrome eklentisi, turkiye.gov.tr'de kullanıcıların favori
           işlemlerini arama kutusunun altında listelemektedir.
