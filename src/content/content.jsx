@@ -3,7 +3,7 @@ import "./content.css";
 
 async function fetchFavs() {
   try {
-    const favsHTML = await (await fetch("https://turkiye.gov.tr/favori-hizmetlerim")).text();
+    const favsHTML = await (await fetch("/favori-hizmetlerim")).text();
     const $ = cheerio.load(favsHTML);
     $("a.boxList_close").remove();
     $("img").remove();
